@@ -1,6 +1,7 @@
 #!perl -w
 
 use Test;
+use Test::FailWarnings;
 plan tests => 77;
 
 use HTTP::Cookies;
